@@ -23,6 +23,6 @@ public class StreamFilter {
         StreamsBuilder builder = new StreamsBuilder();
         // input topic
         KStream<String, String> inputTopic = builder.stream("twitter_topics");
-        
+        System.out.println("My Name");
     }
 }
